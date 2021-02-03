@@ -5,11 +5,11 @@ import App from './App';
 import UserForm from "./default module/components/UserForm";
 
 ReactDOM.render(
-    <App />,
-  document.getElementById("root")
-)
+   <div>
+ 
+     <App />
+     <UserForm />
+   </div>,
 
-ReactDOM.render(
-  <UserForm />,
-document.getElementById("rootn")
+  document.getElementById("root")
 )
